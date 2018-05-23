@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+        maven {
+            url {"https://dl.bintray.com/rjrudin/maven/"}
+        }
+    }
+    dependencies {
+        classpath "com.marklogic:ml-unit-test-client:${mlUnitTestVersion}"
+        classpath "com.marklogic:ml-gradle:${mlGradleVersion}"
+    }
+}
+
+apply plugin: "java"
+apply plugin: "com.marklogic.ml-gradle"
+
+repositories {
+    jcenter()
+    mavenLocal()
+    maven {
+        url {"https://dl.bintray.com/rjrudin/maven/"}
+    }
+}
+
+dependencies {
+    mlRestApi "com.marklogic:ml-unit-test-modules:${mlUnitTestVersion}"
+
+    // For running ml-unit-test tests via JUnit
+    testCompile "com.marklogic:ml-unit-test-client:${mlUnitTestVersion}"
+    testCompile "junit:junit:4+"
+}
+
+group 'com.marklogic.billFarber'
+version '1.0-SNAPSHOT'
