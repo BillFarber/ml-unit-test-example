@@ -1,0 +1,12 @@
+{
+  "server-name": "%%NAME%%-custom-rest-api-server",
+  "server-type": "http",
+  "root": "/",
+  "port": 8137,
+  "authentication": "digestbasic",
+  "group-name": "%%GROUP%%",
+  "content-database": "%%DATABASE%%",
+  "modules-database": "%%MODULES_DATABASE%%",
+  "url-rewriter": "/custom-rewriter.xml",
+  "rewrite-resolves-globally": "true"
+}
