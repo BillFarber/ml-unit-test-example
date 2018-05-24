@@ -19,4 +19,17 @@ let $params      := map:new()
     =>parameters:query-parameter("name",true(),false())
 
 let $document-name := map:get($params, "name")
-return xdmp:log(concat("Requested Document: ",$document-name))
+let $_ := xdmp:log(concat("Requested Document: ", $document-name))
+
+return
+    if (fn:exists(fn:doc($document-name))) then
+        (
+            xdmp:set-response-code(200,"OK"),
+            xdmp:set-response-content-type("application/xml"),
+            fn:doc($document-name)
+        )
+    else
+        (
+            xdmp:set-response-code(404,"Not Found"),
+            xdmp:log(concat("Not Found: ", $document-name))
+        )

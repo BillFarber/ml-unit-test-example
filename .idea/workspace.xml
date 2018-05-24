@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="Get rid of the build directory.">
-      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,20 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document-create.xqy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="document-create.xqy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="405">
+              <caret line="27" column="1" selection-start-line="18" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="62" selection-start-line="21" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="362">
+              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -1179,11 +1179,11 @@
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xq" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xqy" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
-        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" />
         <option value="$PROJECT_DIR$/foo.xml" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" />
       </list>
     </option>
   </component>
@@ -1488,7 +1488,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527000097912</updated>
       <workItem from="1527000099926" duration="22688000" />
-      <workItem from="1527156901901" duration="4515000" />
+      <workItem from="1527156901901" duration="4820000" />
     </task>
     <task id="LOCAL-00001" summary="Get rid of the build directory.">
       <created>1527145328955</created>
@@ -1501,7 +1501,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27203000" />
+    <option name="totallyTimeSpent" value="27508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1361" height="789" extended-state="0" />
@@ -1685,13 +1685,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/foo.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="62" selection-start-line="21" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1715,8 +1708,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="18" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
