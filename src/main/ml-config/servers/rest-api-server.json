@@ -1,0 +1,10 @@
+{
+  "server-name": "%%NAME%%",
+  "server-type": "http",
+  "root": "/",
+  "port": %%PORT%%,
+  "authentication": "digestbasic",
+  "group-name": "%%GROUP%%",
+  "content-database": "%%DATABASE%%",
+  "url-rewriter": "/rewriter.xml"
+}
