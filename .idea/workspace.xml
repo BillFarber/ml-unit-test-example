@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="Get rid of the build directory.">
+      <change afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ml-config/servers/rest-api-server.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-config/servers/standard-rest-api-server.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/rewriter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,20 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="example-data-tests.xqy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-data-tests.xqy">
+      <file leaf-file-name="custom-rewriter.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standard-rest-api-server.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/ml-config/servers/standard-rest-api-server.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -54,18 +46,46 @@
       <file leaf-file-name="standard-rewriter.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" lean-forward="true" selection-end-line="813" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="document-create.xqy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XQuery Main Module" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sample.xml</find>
       <find>example</find>
+      <find>put</find>
+      <find>match-query-param name=&quot;txid&quot;</find>
+      <find>PUT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1147,9 +1167,16 @@
         <option value="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/suite-teardown.xqy" />
         <option value="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/suite-setup.xqy" />
         <option value="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-data-tests.xqy" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/ml-config/servers/rest-api-server.json" />
         <option value="$PROJECT_DIR$/src/main/ml-config/servers/standard-rest-api-server.json" />
+        <option value="$PROJECT_DIR$/src/main/ml-config/servers/custom-rest-api-server.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xq" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xqy" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" />
       </list>
     </option>
   </component>
@@ -1181,6 +1208,11 @@
             <path>
               <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
@@ -1222,6 +1254,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="ml-modules" type="462c0819:PsiDirectoryNode" />
               <item name="root" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="ml-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="root" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
@@ -1286,6 +1327,15 @@
               <item name="My Tests" type="462c0819:PsiDirectoryNode" />
               <item name="test-data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1297,23 +1347,25 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;XQuery" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/ml-modules/root/documents" />
       <recent name="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests" />
       <recent name="$PROJECT_DIR$/src/test/ml-modules/root/test/suites" />
       <recent name="$PROJECT_DIR$/src/test/ml-modules/root" />
       <recent name="$PROJECT_DIR$/src/test/ml-modules/root/test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/ml-modules/root/documents" />
+      <recent name="$PROJECT_DIR$/src/main/ml-modules/root" />
       <recent name="$PROJECT_DIR$/src/main/ml-config/servers" />
       <recent name="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests" />
       <recent name="$PROJECT_DIR$/src/test/ml-modules/root/test/suites" />
-      <recent name="$PROJECT_DIR$/src/test/ml-modules/root/test" />
-      <recent name="$PROJECT_DIR$/src/test/ml-modules/root" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1429,7 +1481,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527000097912</updated>
-      <workItem from="1527000099926" duration="14907000" />
+      <workItem from="1527000099926" duration="17029000" />
     </task>
     <task id="LOCAL-00001" summary="Get rid of the build directory.">
       <created>1527145328955</created>
@@ -1442,7 +1494,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14907000" />
+    <option name="totallyTimeSpent" value="17029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="61" width="1361" height="789" extended-state="0" />
@@ -1504,9 +1556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/example-lib.xqy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1554,16 +1603,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test-data/sample.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-lib-tests.xqy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1575,20 +1614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1606,17 +1631,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-data-tests.xqy">
+    <entry file="file://$PROJECT_DIR$/src/main/ml-config/servers/standard-rest-api-server.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-config/servers/standard-rest-api-server.json">
+    <entry file="file://$PROJECT_DIR$/src/main/ml-config/servers/custom-rest-api-server.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/example-lib.xqy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-lib-tests.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-data-tests.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xq">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="true" selection-end-line="813" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
