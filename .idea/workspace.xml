@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="Get rid of the build directory.">
-      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,12 +32,21 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="custom-rewriter.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -49,20 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document-create.xqy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="document-create.xqy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="315">
+              <caret line="21" column="62" selection-start-line="21" selection-end-line="21" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -889,10 +900,10 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7635161122000" />
+        <entry key="$PROJECT_DIR$" value="7635319403000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3536609160" />
-        <entry key="$PROJECT_DIR$/gradle.properties" value="2591770839" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="2485020363" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="968580560" />
       </map>
@@ -1157,7 +1168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/test-data/sample.xml" />
         <option value="$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-lib-tests.xqy" />
@@ -1171,9 +1181,11 @@
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xq" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xqy" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
-        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" />
-        <option value="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" />
+        <option value="$PROJECT_DIR$/foo.xml" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" />
       </list>
     </option>
   </component>
@@ -1187,8 +1199,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="61" />
+    <option name="y" value="28" />
     <option name="width" value="1361" />
     <option name="height" value="789" />
   </component>
@@ -1198,7 +1209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1337,8 +1347,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1478,7 +1489,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527000097912</updated>
-      <workItem from="1527000099926" duration="17968000" />
+      <workItem from="1527000099926" duration="22688000" />
+      <workItem from="1527156901901" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="Get rid of the build directory.">
       <created>1527145328955</created>
@@ -1491,41 +1503,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17968000" />
+    <option name="totallyTimeSpent" value="26178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="61" width="1361" height="789" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="28" width="1361" height="789" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.264" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786186" />
-      <window_info anchor="bottom" id="Build" weight="0.32908162" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32867134" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32933334" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1544,14 +1555,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-failing-tests.xqy">
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="210" column="38" selection-start-line="210" selection-start-column="38" selection-end-line="210" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/example-failing-tests.xqy">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1563,18 +1596,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/sample.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/test-data/sample.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/test-data/sample.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/sample.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/test-data/sample.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1582,31 +1611,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/test-data/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/test-data/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test-data/sample.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/test-data/sample.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/test-data/sample.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/sample.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/My Tests/sample.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test/suites/sample.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/ml-modules/root/test-data/sample.xml" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1659,9 +1669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1675,15 +1682,30 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xq">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="315">
+          <caret line="21" column="62" selection-start-line="21" selection-end-line="21" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1692,17 +1714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
