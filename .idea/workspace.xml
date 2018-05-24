@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="Get rid of the build directory.">
-      <change afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom-rewriter.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom-rewriter.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -46,8 +43,8 @@
       <file leaf-file-name="standard-rewriter.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" lean-forward="true" selection-end-line="813" />
+            <state relative-caret-position="346">
+              <caret line="210" column="38" selection-start-line="210" selection-start-column="38" selection-end-line="210" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -61,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="document-get.xqy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -83,9 +80,9 @@
     <findStrings>
       <find>sample.xml</find>
       <find>example</find>
-      <find>put</find>
       <find>match-query-param name=&quot;txid&quot;</find>
       <find>PUT</find>
+      <find>put</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1174,9 +1171,9 @@
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xq" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/document-create.xqy" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" />
-        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy" />
         <option value="$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy" />
       </list>
     </option>
   </component>
@@ -1481,7 +1478,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527000097912</updated>
-      <workItem from="1527000099926" duration="17029000" />
+      <workItem from="1527000099926" duration="17968000" />
     </task>
     <task id="LOCAL-00001" summary="Get rid of the build directory.">
       <created>1527145328955</created>
@@ -1494,7 +1491,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17029000" />
+    <option name="totallyTimeSpent" value="17968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="61" width="1361" height="789" extended-state="0" />
@@ -1678,13 +1675,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xq">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-create.xqy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1692,20 +1682,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-end-line="813" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/standard-rewriter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="210" column="38" selection-start-line="210" selection-start-column="38" selection-end-line="210" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/custom-rewriter.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ml-modules/root/documents/document-get.xqy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
         </state>
       </provider>
     </entry>

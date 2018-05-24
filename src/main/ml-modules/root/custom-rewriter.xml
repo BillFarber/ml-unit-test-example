@@ -2,7 +2,7 @@
 <rewriter xmlns="http://marklogic.com/xdmp/rewriter">
 
     <match-path matches="^/datahub/kofax/document/([^/]+)/?$">
-        <add-query-param name="name">$2</add-query-param>
+        <add-query-param name="name">$1</add-query-param>
         <match-method any-of="GET HEAD">
             <match-query-param name="txid">
                 <set-transaction>$0</set-transaction>
