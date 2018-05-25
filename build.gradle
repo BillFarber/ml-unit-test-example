@@ -33,3 +33,5 @@ dependencies {
 
 group 'com.marklogic.billFarber'
 version '1.0-SNAPSHOT'
+
+mlPostDeploy.dependsOn(mlSetTraceEvents)

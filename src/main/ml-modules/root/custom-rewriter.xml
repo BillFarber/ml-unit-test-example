@@ -4,9 +4,11 @@
     <match-path matches="^/datahub/kofax/document/([^/]+)/?$">
         <add-query-param name="name">$1</add-query-param>
         <match-method any-of="GET HEAD">
+            <trace event="kofax">KOFAX requested a document.</trace>
             <dispatch>/documents/document-get.xqy</dispatch>
         </match-method>
         <match-method any-of="POST PUT">
+            <trace event="kofax">KOFAX delivered a document.</trace>
             <dispatch>/documents/document-create.xqy</dispatch>
         </match-method>
     </match-path>
