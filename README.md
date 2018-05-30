@@ -30,7 +30,7 @@ Inside SoapUI you can use the requests to exercise the custom endpoint with a PU
 1) Sample data is in an arbitrary directory (src/main/ml-data). This data is not automatically loaded.
 2) MLCP tasks are added to build.gradle to load the sample data.
 3) A log4j.properties is included in the MLCP dependencies to enable logging during MLCP tasks.
-4) [ml-gradle example] (https://github.com/marklogic-community/ml-gradle/blob/master/examples/mlcp-project/build.gradle)
+4) [ml-gradle example](https://github.com/marklogic-community/ml-gradle/blob/master/examples/mlcp-project/build.gradle)
 
 ### Custom Search Constraints
 There are two custom search options files in src/main/ml-modules/options: default.xml and tvm-connect-options.xml.
@@ -41,10 +41,10 @@ The other file must be specified in the search URL if that is desired.
 
 Examples:
 
-[Default options, No constraint] (http://localhost:8134/v1/search?q=shipping)
+[Default options, No constraint](http://localhost:8134/v1/search?q=shipping)
 
-[Default options, company constraint] (http://localhost:8134/v1/search?q=shipping%20company:A)
+[Default options, company constraint](http://localhost:8134/v1/search?q=shipping%20company:A)
 
-[tvm-connect-options, No constraint] (http://localhost:8134/v1/search?options=tvm-connect-options&q=shipping)
+[tvm-connect-options, No constraint](http://localhost:8134/v1/search?options=tvm-connect-options&q=shipping)
 
-[tvm-connect-options, company constraint] (http://localhost:8134/v1/search?options=tvm-connect-options&q=shipping%20company:A)
+[tvm-connect-options, company constraint](http://localhost:8134/v1/search?options=tvm-connect-options&q=shipping%20company:A)
