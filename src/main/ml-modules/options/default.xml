@@ -1,0 +1,9 @@
+<options xmlns='http://marklogic.com/appservices/search'>
+    <search-option>unfiltered</search-option>
+    <quality-weight>0</quality-weight>
+    <constraint name="company">
+        <collection prefix="/company/"/>
+    </constraint>
+
+    <return-constraints>true</return-constraints>
+</options>
