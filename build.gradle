@@ -93,4 +93,15 @@ task importCompanyB(type: com.marklogic.gradle.task.MlcpTask) {
 
 task importSampleData(dependsOn: [importCompanyA, importCompanyB]) {}
 
+import com.marklogic.appdeployer.command.modules.LoadModulesCommand
+task setSearchOptionsForRestServer(type: com.marklogic.gradle.task.MarkLogicTask) {
+    doLast {
+        def cmd = new LoadModulesCommand()
+        def context = getCommandContext()
+        context.getAppConfig().setRestPort(8136)
+        context.getAppConfig().setTestRestPort(null)
+        cmd.execute(context)
+    }
+}
+
 mlPostDeploy.dependsOn(mlSetTraceEvents)
