@@ -21,6 +21,11 @@ repositories {
     maven {
         url {"https://dl.bintray.com/rjrudin/maven/"}
     }
+    maven { url "https://developer.marklogic.com/maven2/" }
+}
+
+configurations {
+    mlcp
 }
 
 dependencies {
@@ -29,9 +34,63 @@ dependencies {
     // For running ml-unit-test tests via JUnit
     testCompile "com.marklogic:ml-unit-test-client:${mlUnitTestVersion}"
     testCompile "junit:junit:4+"
+
+    mlcp "com.marklogic:mlcp:9.0.4"
+    /**
+     * mlcp uses Log4j for logging, and if Log4j can't find a configuration file, it will complain and you'll
+     * get none of mlcp's usually-useful logging. It is recommended then that your Gradle configuration for
+     * mlcp include a directory or some other resource that provides a log4j.properties file.
+     */
+    mlcp files("lib")
 }
 
 group 'com.marklogic.billFarber'
 version '1.0-SNAPSHOT'
+
+task importCompanyA(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    output_collections = "/company/A"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_replace = ".*ml-data,''"
+
+    /**
+     * New in ml-gradle 2.6.0 - set this to define a URI in your content database for mlcp's log output to be written to
+     * as a text document. This can also be a variable, Gradle property, etc.
+     */
+    logOutputUri = "mlcp-log.txt"
+
+    /**
+     * The args array can be used for any MLCP parameters that are not supported by the MlcpBean class that MlcpTask
+     * delegates to. input_file_path is supported by MlcpTask; this is just included as an example of using the args
+     * array.
+     */
+    args = ["-input_file_path", "src/main/ml-data/CompanyA"]
+}
+
+task importCompanyB(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    output_collections = "/company/B"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_replace = ".*ml-data,''"
+
+    /**
+     * New in ml-gradle 2.6.0 - set this to define a URI in your content database for mlcp's log output to be written to
+     * as a text document. This can also be a variable, Gradle property, etc.
+     */
+    logOutputUri = "mlcp-log.txt"
+
+    /**
+     * The args array can be used for any MLCP parameters that are not supported by the MlcpBean class that MlcpTask
+     * delegates to. input_file_path is supported by MlcpTask; this is just included as an example of using the args
+     * array.
+     */
+    args = ["-input_file_path", "src/main/ml-data/CompanyB"]
+}
+
+task importSampleData(dependsOn: [importCompanyA, importCompanyB]) {}
 
 mlPostDeploy.dependsOn(mlSetTraceEvents)
