@@ -91,7 +91,29 @@ task importCompanyB(type: com.marklogic.gradle.task.MlcpTask) {
     args = ["-input_file_path", "src/main/ml-data/CompanyB"]
 }
 
-task importSampleData(dependsOn: [importCompanyA, importCompanyB]) {}
+task importShakespeare(type: com.marklogic.gradle.task.MlcpTask) {
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    database = mlAppConfig.contentDatabaseName
+    output_collections = "/shakespeare"
+    output_permissions = "rest-reader,read,rest-writer,update"
+    output_uri_replace = ".*ml-data,''"
+
+    /**
+     * New in ml-gradle 2.6.0 - set this to define a URI in your content database for mlcp's log output to be written to
+     * as a text document. This can also be a variable, Gradle property, etc.
+     */
+    logOutputUri = "mlcp-log.txt"
+
+    /**
+     * The args array can be used for any MLCP parameters that are not supported by the MlcpBean class that MlcpTask
+     * delegates to. input_file_path is supported by MlcpTask; this is just included as an example of using the args
+     * array.
+     */
+    args = ["-input_file_path", "src/main/ml-data/shaks200"]
+}
+
+task importSampleData(dependsOn: [importCompanyA, importCompanyB, importShakespeare]) {}
 
 import com.marklogic.appdeployer.command.modules.LoadModulesCommand
 task setSearchOptionsForRestServer(type: com.marklogic.gradle.task.MarkLogicTask) {

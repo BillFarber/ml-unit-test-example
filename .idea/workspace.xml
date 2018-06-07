@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="Get rid of the build directory.">
+    <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REST-Project-1-soapui-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/REST-Project-1-soapui-project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TVM-workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TVM-workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/a_and_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/a_and_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/all_well.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/all_well.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/as_you.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/as_you.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/catalog" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/catalog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/com_err.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/com_err.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/coriolan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/coriolan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/cymbelin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/cymbelin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/dream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/dream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/dsssl.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/dsssl.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/fot.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/fot.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hamlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hamlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_iv_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_iv_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_iv_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_iv_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_v.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_v.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_vi_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_vi_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_vi_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_vi_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_vi_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_vi_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_viii.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/hen_viii.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/j_caesar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/j_caesar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/john.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/john.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/lear.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/lear.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/lll.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/lll.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/m_for_m.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/m_for_m.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/m_wives.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/m_wives.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/macbeth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/macbeth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/merchant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/merchant.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/much_ado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/much_ado.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/othello.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/othello.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/pericles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/pericles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/play.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/play.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/playlist" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/playlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/r_and_j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/r_and_j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/rich_ii.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/rich_ii.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/rich_iii.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/rich_iii.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/shaksper.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/shaksper.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/style-sheet.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/style-sheet.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/t_night.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/t_night.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/taming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/taming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/tempest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/tempest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/timon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/timon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/titus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/titus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/troilus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/troilus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/two_gent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/two_gent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/vs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/vx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/vx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/win_tale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/win_tale.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.dcl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.dcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.soc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.soc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".gradle/" />
@@ -28,23 +78,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-              <folding>
-                <element signature="e#3535#3608#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1155">
+              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -102,52 +149,46 @@
     <option name="width" value="1361" />
     <option name="height" value="789" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="RoxyUnitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="RoxyUnitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="RoxyUnitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="RoxyUnitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ml-modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="roxyUnitTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RoxyUnitTests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ml-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="options" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +198,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Groovy compiler" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -177,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.setSearchOptionsForRestServer">
+  <component name="RunManager" selected="Gradle.importSampleData">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -291,7 +335,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1525189-85e4-4e82-b76c-a1f55d71f36f" name="Default" comment="" />
+      <changelist id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="Get rid of the build directory." />
       <created>1527594572449</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -302,6 +346,9 @@
       <workItem from="1527658772654" duration="1080000" />
       <workItem from="1527662215837" duration="8389000" />
       <workItem from="1527682892644" duration="4146000" />
+      <workItem from="1528314619916" duration="1163000" />
+      <workItem from="1528316731405" duration="807000" />
+      <workItem from="1528317706571" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="Adding some information to the README.">
       <created>1527595362016</created>
@@ -366,66 +413,52 @@
       <option name="project" value="LOCAL" />
       <updated>1527666637038</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add the shakespeare data.">
+      <created>1528314810789</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528314810789</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24394000" />
+    <option name="totallyTimeSpent" value="27380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1361" height="789" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26293707" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30786186" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32867134" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24285714" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39191073" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3916084" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24246877" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,12 +476,11 @@
     <MESSAGE value="Updating the IDEA files for my own convenience." />
     <MESSAGE value="Updated the README file with information on MLCP via ml-gradle and custom search constraints." />
     <MESSAGE value="Fixing the inline links in the README file - no space between [text] and (link)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing the inline links in the README file - no space between [text] and (link)" />
+    <MESSAGE value="Add the shakespeare data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the shakespeare data." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name" />
     <entry file="file://$PROJECT_DIR$/build/test-results/marklogic-unit-test/TEST-My Tests.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -550,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#3535#3608#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,22 +742,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="e#3535#3608#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1155">
+          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ml-unit-test-example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.burgstaller:okhttp-digest:1.15</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

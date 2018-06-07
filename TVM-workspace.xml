@@ -2,4 +2,5 @@
 <con:soapui-workspace name="TVM" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:project name="REST Project 1">/Users/pbarber/Documents/workspaces/TVM/RoxyUnitTests/REST-Project-1-soapui-project.xml</con:project>
+  <con:collectInfoForSupport>false</con:collectInfoForSupport>
 </con:soapui-workspace>
