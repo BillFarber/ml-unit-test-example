@@ -2,7 +2,7 @@
   "server-name": "%%NAME%%-standard-rest-api-server",
   "server-type": "http",
   "root": "/",
-  "port": 8136,
+  "port": 8138,
   "authentication": "digestbasic",
   "group-name": "%%GROUP%%",
   "content-database": "%%DATABASE%%",

@@ -120,7 +120,7 @@ task setSearchOptionsForRestServer(type: com.marklogic.gradle.task.MarkLogicTask
     doLast {
         def cmd = new LoadModulesCommand()
         def context = getCommandContext()
-        context.getAppConfig().setRestPort(8136)
+        context.getAppConfig().setRestPort(8137)
         context.getAppConfig().setTestRestPort(null)
         cmd.execute(context)
     }

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbcd637-f64f-40f7-a378-de92ffa45f41" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REST-Project-1-soapui-project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/REST-Project-1-soapui-project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TVM-workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TVM-workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/a_and_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/a_and_c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/all_well.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/all_well.xml" afterDir="false" />
@@ -55,6 +52,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/win_tale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/win_tale.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.dcl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.dcl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.soc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-data/shaks200/xml.soc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/options/default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/options/default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".gradle/" />
@@ -78,16 +77,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
+            <state relative-caret-position="180">
+              <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ml-modules/options/default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -99,8 +107,8 @@
       <file leaf-file-name="tvm-connect-options.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -128,10 +136,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/ml-data/CompanyA/a.xml" />
         <option value="$PROJECT_DIR$/src/main/ml-data/CompanyB/b.xml" />
-        <option value="$PROJECT_DIR$/src/main/ml-modules/options/default.xml" />
-        <option value="$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/options/default.xml" />
+        <option value="$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml" />
       </list>
     </option>
   </component>
@@ -145,7 +153,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="28" />
+    <option name="x" value="54" />
+    <option name="y" value="27" />
     <option name="width" value="1361" />
     <option name="height" value="789" />
   </component>
@@ -185,6 +194,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="ml-data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RoxyUnitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoxyUnitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoxyUnitTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.importSampleData">
+  <component name="RunManager" selected="Gradle.mlDeploy">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -254,6 +278,23 @@
         <option name="taskNames">
           <list>
             <option value="mlDeploy" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="mlUndeploy" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-Pconfirm=true" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="mlUndeploy" />
           </list>
         </option>
         <option name="vmOptions" value="" />
@@ -326,6 +367,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.mlDeploy" />
+      <item itemvalue="Gradle.mlUndeploy" />
       <item itemvalue="Gradle.setSearchOptionsForRestServer" />
       <item itemvalue="Gradle.importSampleData" />
     </list>
@@ -348,7 +390,7 @@
       <workItem from="1527682892644" duration="4146000" />
       <workItem from="1528314619916" duration="1163000" />
       <workItem from="1528316731405" duration="807000" />
-      <workItem from="1528317706571" duration="1016000" />
+      <workItem from="1528317706571" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="Adding some information to the README.">
       <created>1527595362016</created>
@@ -420,15 +462,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528314810789</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add the shakespeare data, import the data, and search the data.">
+      <created>1528355753163</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528355753163</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27380000" />
+    <option name="totallyTimeSpent" value="31877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1361" height="789" extended-state="0" />
-    <editor active="true" />
+    <frame x="54" y="27" width="1361" height="789" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -477,7 +525,8 @@
     <MESSAGE value="Updated the README file with information on MLCP via ml-gradle and custom search constraints." />
     <MESSAGE value="Fixing the inline links in the README file - no space between [text] and (link)" />
     <MESSAGE value="Add the shakespeare data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the shakespeare data." />
+    <MESSAGE value="Add the shakespeare data, import the data, and search the data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the shakespeare data, import the data, and search the data." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/.name" />
@@ -728,31 +777,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ml-modules/options/default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ml-modules/options/tvm-connect-options.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="39" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="180">
+          <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
         </state>
       </provider>
     </entry>

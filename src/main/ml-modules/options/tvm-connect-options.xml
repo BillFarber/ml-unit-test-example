@@ -5,6 +5,13 @@
         <collection prefix="/company/"/>
     </constraint>
 
+    <constraint name="title">
+        <word>
+            <element ns="" name="TITLE"/>
+        </word>
+    </constraint>
+
+    <return-results>true</return-results>
     <return-query>true</return-query>
     <return-constraints>true</return-constraints>
 </options>

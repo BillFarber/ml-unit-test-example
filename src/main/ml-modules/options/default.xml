@@ -5,6 +5,6 @@
         <collection prefix="/company/"/>
     </constraint>
 
-    <return-results>false</return-results>
+    <return-results>true</return-results>
     <return-constraints>true</return-constraints>
 </options>
