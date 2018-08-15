@@ -1,0 +1,284 @@
+@prefix : <http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.tvm.nl/dhf/ontologies/2018/6/gdpr> .
+
+<http://www.tvm.nl/dhf/ontologies/2018/6/gdpr> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containedIn
+:containedIn rdf:type owl:ObjectProperty ;
+             owl:inverseOf :containsIdentifyingPrivateElement ,
+                           :containsPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsBirthdate
+:containsBirthdate rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf :containsPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsEmailAddress
+:containsEmailAddress rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf :containsIdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsIdentifyingPrivateElement
+:containsIdentifyingPrivateElement rdf:type owl:ObjectProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsLicenseNumber
+:containsLicenseNumber rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :containsIdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsName
+:containsName rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf :containsPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsPhoneNumber
+:containsPhoneNumber rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf :containsIdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#containsPrivateElement
+:containsPrivateElement rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#describes
+:describes rdf:type owl:ObjectProperty ;
+           owl:inverseOf :isDescribedBy .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#hasPurpose
+:hasPurpose rdf:type owl:ObjectProperty ;
+            rdfs:range :Purpose .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#isDescribedBy
+:isDescribedBy rdf:type owl:ObjectProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#samePersonAs
+:samePersonAs rdf:type owl:ObjectProperty ,
+                       owl:ReflexiveProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#atDataHubURI
+:atDataHubURI rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:anyURI .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#createdAtTime
+:createdAtTime rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#hasRetentionPeriod
+:hasRetentionPeriod rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#isUsedFor
+:isUsedFor rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#pathInDocument
+:pathInDocument rdf:type owl:DatatypeProperty .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#valueOfPrivateData
+:valueOfPrivateData rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#Birthdate
+:Birthdate rdf:type owl:Class ;
+           rdfs:subClassOf :NonIdentifyingPrivateElement ;
+           owl:disjointWith :Name .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#Document
+:Document rdf:type owl:Class .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#EmailAddress
+:EmailAddress rdf:type owl:Class ;
+              rdfs:subClassOf :IdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#IdentifyingPrivateElement
+:IdentifyingPrivateElement rdf:type owl:Class ;
+                           rdfs:subClassOf :PrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#LicenseNumber
+:LicenseNumber rdf:type owl:Class ;
+               rdfs:subClassOf :IdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#MetadataDocument
+:MetadataDocument rdf:type owl:Class ;
+                  rdfs:subClassOf :Document .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#Name
+:Name rdf:type owl:Class ;
+      rdfs:subClassOf :NonIdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#NonIdentifyingPrivateElement
+:NonIdentifyingPrivateElement rdf:type owl:Class ;
+                              rdfs:subClassOf :PrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#OriginalDocument
+:OriginalDocument rdf:type owl:Class ;
+                  rdfs:subClassOf :Document .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#PhoneNumber
+:PhoneNumber rdf:type owl:Class ;
+             rdfs:subClassOf :IdentifyingPrivateElement .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#PrivateElement
+:PrivateElement rdf:type owl:Class .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#Purpose
+:Purpose rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ClaimInvestigation
+:ClaimInvestigation rdf:type owl:NamedIndividual ,
+                             :Purpose .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ContractManagement
+:ContractManagement rdf:type owl:NamedIndividual ,
+                             :Purpose .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#CustomerRelations
+:CustomerRelations rdf:type owl:NamedIndividual ,
+                            :Purpose .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ExampleClaimMetadata
+:ExampleClaimMetadata rdf:type owl:NamedIndividual ,
+                               :MetadataDocument ;
+                      :containsIdentifyingPrivateElement :LicenseNumber_123456789 ;
+                      :containsPrivateElement :name_Phil_Barber ;
+                      :describes :ExampleClaimPDF ;
+                      :hasPurpose :ClaimInvestigation ,
+                                  :FraudPrevention ;
+                      :atDataHubURI "/claims/123/456/a.xml" ;
+                      :createdAtTime "2018-06-12" ;
+                      :hasRetentionPeriod "P15Y" ;
+                      :isUsedFor "Claim Investigation" ,
+                                 "Fraud Control" .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ExampleClaimPDF
+:ExampleClaimPDF rdf:type owl:NamedIndividual ,
+                          :OriginalDocument ;
+                 :isDescribedBy :ExampleClaimMetadata ;
+                 :atDataHubURI "/claims/123/456/a.pdf" ;
+                 :createdAtTime "2018-06-12" ;
+                 :hasRetentionPeriod "P15Y" .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ExampleContractMetadata
+:ExampleContractMetadata rdf:type owl:NamedIndividual ,
+                                  :MetadataDocument ;
+                         :containsBirthdate :birthdate_31-1-1967 ;
+                         :containsEmailAddress :ExampleEmailAddress ;
+                         :describes :ExampleContractPDF ;
+                         :hasPurpose :ContractManagement ,
+                                     :CustomerRelations ;
+                         :atDataHubURI "/contracts/123/456/c1.xml" ;
+                         :createdAtTime "01-01-2018" ;
+                         :hasRetentionPeriod "P10Y" ;
+                         :isUsedFor "Claims Investigation" ,
+                                    "Customer Research" .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ExampleContractPDF
+:ExampleContractPDF rdf:type owl:NamedIndividual ,
+                             :OriginalDocument ;
+                    :isDescribedBy :ExampleContractMetadata ;
+                    :atDataHubURI "/contracts/123/456/c1.pdf" ;
+                    :createdAtTime "01-01-2018" ;
+                    :hasRetentionPeriod "P10Y" .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#ExampleEmailAddress
+:ExampleEmailAddress rdf:type owl:NamedIndividual ,
+                              :EmailAddress ;
+                     :samePersonAs :LicenseNumber_123456789 ;
+                     :pathInDocument "/envelope/metadata/email" ;
+                     :valueOfPrivateData "pmb.barber@tvm.nl"^^rdfs:Literal .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#FraudPrevention
+:FraudPrevention rdf:type owl:NamedIndividual ,
+                          :Purpose .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#LicenseNumber_123456789
+:LicenseNumber_123456789 rdf:type owl:NamedIndividual ,
+                                  :LicenseNumber ;
+                         :containedIn :ExampleClaimMetadata ;
+                         :samePersonAs :ExampleEmailAddress ;
+                         :pathInDocument "/envelope/metadata/ssn" ;
+                         :valueOfPrivateData 123456789 .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#birthdate_31-1-1967
+:birthdate_31-1-1967 rdf:type owl:NamedIndividual ,
+                              :Birthdate ;
+                     :pathInDocument "/envelope/metadata/birthdate" ;
+                     :valueOfPrivateData "31-1-1967" .
+
+
+###  http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#name_Phil_Barber
+:name_Phil_Barber rdf:type owl:NamedIndividual ,
+                           :Name ;
+                  :containedIn :ExampleClaimMetadata ;
+                  :pathInDocument "/envelope/metadata/name" ;
+                  :valueOfPrivateData "Phil Barber" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :EmailAddress
+                :LicenseNumber
+                :PhoneNumber
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

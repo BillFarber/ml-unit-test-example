@@ -1,0 +1,498 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.tvm.nl/dhf/ontologies/2018/6/gdpr"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.tvm.nl/dhf/ontologies/2018/6/gdpr">
+    <Prefix name="" IRI="http://www.tvm.nl/dhf/ontologies/2018/6/gdpr#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsLicenseNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsPrivateElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containedIn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClaimInvestigation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPurpose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valueOfPrivateData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonIdentifyingPrivateElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsPhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IdentifyingPrivateElement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#atDataHubURI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#describes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContractManagement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#createdAtTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FraudPrevention"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRetentionPeriod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmailAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetadataDocument"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#birthdate_31-1-1967"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsIdentifyingPrivateElement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CustomerRelations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrivateElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isUsedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#samePersonAs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#name_Phil_Barber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pathInDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LicenseNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsEmailAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Birthdate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsBirthdate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OriginalDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Birthdate"/>
+        <Class IRI="#NonIdentifyingPrivateElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmailAddress"/>
+        <Class IRI="#IdentifyingPrivateElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IdentifyingPrivateElement"/>
+        <Class IRI="#PrivateElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LicenseNumber"/>
+        <Class IRI="#IdentifyingPrivateElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetadataDocument"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Name"/>
+        <Class IRI="#NonIdentifyingPrivateElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonIdentifyingPrivateElement"/>
+        <Class IRI="#PrivateElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OriginalDocument"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhoneNumber"/>
+        <Class IRI="#IdentifyingPrivateElement"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Birthdate"/>
+        <Class IRI="#Name"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EmailAddress"/>
+        <Class IRI="#LicenseNumber"/>
+        <Class IRI="#PhoneNumber"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Purpose"/>
+        <NamedIndividual IRI="#ClaimInvestigation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Purpose"/>
+        <NamedIndividual IRI="#ContractManagement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Purpose"/>
+        <NamedIndividual IRI="#CustomerRelations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EmailAddress"/>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetadataDocument"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OriginalDocument"/>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MetadataDocument"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OriginalDocument"/>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Purpose"/>
+        <NamedIndividual IRI="#FraudPrevention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LicenseNumber"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Birthdate"/>
+        <NamedIndividual IRI="#birthdate_31-1-1967"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Name"/>
+        <NamedIndividual IRI="#name_Phil_Barber"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#samePersonAs"/>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsIdentifyingPrivateElement"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsPrivateElement"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <NamedIndividual IRI="#name_Phil_Barber"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describes"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <NamedIndividual IRI="#ClaimInvestigation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <NamedIndividual IRI="#FraudPrevention"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsBirthdate"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <NamedIndividual IRI="#birthdate_31-1-1967"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containsEmailAddress"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#describes"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <NamedIndividual IRI="#ContractManagement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <NamedIndividual IRI="#CustomerRelations"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containedIn"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#samePersonAs"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#containedIn"/>
+        <NamedIndividual IRI="#name_Phil_Barber"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pathInDocument"/>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/envelope/metadata/email</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valueOfPrivateData"/>
+        <NamedIndividual IRI="#EmailAddress_tvm.nl"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pmb.barber@tvm.nl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atDataHubURI"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/claims/123/456/a.xml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#createdAtTime"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2018-06-12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRetentionPeriod"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">P15Y</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isUsedFor"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Claim Investigator</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isUsedFor"/>
+        <NamedIndividual IRI="#ExampleClaimMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fraud Control</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atDataHubURI"/>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/claims/123/456/a.pdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#createdAtTime"/>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2018-06-12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRetentionPeriod"/>
+        <NamedIndividual IRI="#ExampleClaimPDF"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">P15Y</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atDataHubURI"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/contracts/123/456/c1.xml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#createdAtTime"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">01-01-2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRetentionPeriod"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">P10Y</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isUsedFor"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Claims Investigation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isUsedFor"/>
+        <NamedIndividual IRI="#ExampleContractMetadata"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Customer Research</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#atDataHubURI"/>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/contracts/123/456/c1.pdf</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#createdAtTime"/>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">01-01-2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRetentionPeriod"/>
+        <NamedIndividual IRI="#ExampleContractPDF"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">P10Y</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pathInDocument"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/envelope/metadata/ssn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valueOfPrivateData"/>
+        <NamedIndividual IRI="#LicenseNumber_123456789"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">123456789</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pathInDocument"/>
+        <NamedIndividual IRI="#birthdate_31-1-1967"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/envelope/metadata/birthdate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valueOfPrivateData"/>
+        <NamedIndividual IRI="#birthdate_31-1-1967"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">31-1-1967</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pathInDocument"/>
+        <NamedIndividual IRI="#name_Phil_Barber"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">/envelope/metadata/name</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#valueOfPrivateData"/>
+        <NamedIndividual IRI="#name_Phil_Barber"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Phil Barber</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsBirthdate"/>
+        <ObjectProperty IRI="#containsPrivateElement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsEmailAddress"/>
+        <ObjectProperty IRI="#containsIdentifyingPrivateElement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsLicenseNumber"/>
+        <ObjectProperty IRI="#containsIdentifyingPrivateElement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsName"/>
+        <ObjectProperty IRI="#containsPrivateElement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsPhoneNumber"/>
+        <ObjectProperty IRI="#containsIdentifyingPrivateElement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsPrivateElement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#containedIn"/>
+        <ObjectProperty IRI="#containsIdentifyingPrivateElement"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#containedIn"/>
+        <ObjectProperty IRI="#containsPrivateElement"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#describes"/>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </InverseObjectProperties>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#samePersonAs"/>
+    </ReflexiveObjectProperty>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPurpose"/>
+        <Class IRI="#Purpose"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#createdAtTime"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRetentionPeriod"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#isUsedFor"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#atDataHubURI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

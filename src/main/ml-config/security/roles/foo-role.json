@@ -1,0 +1,9 @@
+{
+  "role-name" : "foo-role",
+  "role" : [  ],
+  "privilege" : [{
+    "privilege-name" : "any-collection",
+    "action" : "http://marklogic.com/xdmp/privileges/any-collection",
+    "kind" : "execute"
+  }]
+}

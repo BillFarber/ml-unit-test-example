@@ -1,0 +1,7 @@
+{
+  "namespace": "http://billfarber.marklogic.com/login-lib",
+  "local-name": "login",
+  "document-uri": "/connect/login-lib.xqy",
+  "modules-database": "%%MODULES_DATABASE%%",
+  "role": ["login-role"]
+}

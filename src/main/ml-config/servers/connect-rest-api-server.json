@@ -1,0 +1,13 @@
+{
+  "server-name": "%%NAME%%-connect-rest-api-server",
+  "server-type": "http",
+  "root": "/",
+  "port": 8139,
+  "authentication": "application-level",
+  "default-user": "minimal",
+  "group-name": "%%GROUP%%",
+  "content-database": "%%DATABASE%%",
+  "modules-database": "%%MODULES_DATABASE%%",
+  "url-rewriter": "/connect-rewriter.xml",
+  "rewrite-resolves-globally": "true"
+}
