@@ -1,0 +1,9 @@
+{
+  "role-name" : "invoke-role",
+  "role" : [ ],
+  "privilege" : [{
+    "privilege-name" : "xdmp:invoke",
+    "action" : "http://marklogic.com/xdmp/privileges/xdmp-invoke",
+    "kind" : "execute"
+  }]
+}

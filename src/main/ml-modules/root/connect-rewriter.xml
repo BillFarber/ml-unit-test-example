@@ -1,8 +1,8 @@
-<!-- Copyright 2011-2018 MarkLogic Corporation.  All Rights Reserved. -->
 <rewriter xmlns="http://marklogic.com/xdmp/rewriter">
 
     <match-path matches="^/CONNECT/([^/]+)/?$">
         <add-query-param name="name">$1</add-query-param>
+        <add-query-param name="target-handler">/connect/sample.xqy</add-query-param>
         <match-method any-of="GET">
             <trace event="kofax">KOFAX requested a document.</trace>
             <dispatch>/connect/connect-login.xqy</dispatch>

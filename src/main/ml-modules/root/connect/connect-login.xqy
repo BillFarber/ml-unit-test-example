@@ -3,10 +3,10 @@ import module namespace login-lib = "http://billfarber.marklogic.com/login-lib" 
 
 let $_ := xdmp:log("connect-login")
 
-let $login-response := login-lib:login("foo-role")
+let $login-response := login-lib:login(("invoke-role", "foo-role"))
 let $_ := xdmp:security-assert("http://marklogic.com/xdmp/privileges/any-collection", "execute")
 
-let $_ := xdmp:set-response-content-type("application/xml")
-let $_ := xdmp:set-response-code(200,"Ok")
-return
-    <Response><LoginResponse>{$login-response}</LoginResponse></Response>
+let $target-handler := xdmp:get-request-field("target-handler")
+
+let $_ := xdmp:log(("target-handler", $target-handler))
+return xdmp:invoke($target-handler)
